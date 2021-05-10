@@ -1,0 +1,96 @@
+
+  
+*{
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+}
+a{
+  text-decoration: none;  
+  color: #000;
+}
+a:hover{
+    text-decoration: underline;
+}
+.top-bar{
+    line-height: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+.topitem{
+    padding: 0 5px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    margin-top:150px ;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    line-height: 50px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(231, 231, 231);
+}
+.input-line{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    background-color: rgb(253, 253, 253);
+    width: 400px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 24px;
+}
+.input-line:hover{
+    box-shadow:1px 1px rgba(160, 157, 153, 0.616);
+}
+.iconn{
+    border: 0px solid black;
+    border-radius: 100%;
+    display: flex;
+    width: 35px;
+    padding: 8px 0px;
+    padding-left: 5px;
+    margin-top: 8px;
+    position: relative;
+    
+}
+.iconn:hover{
+
+    background-color: rgb(218, 218, 218);
+}
+.bottom-item{
+    padding: 0 5px;
+}
+#google-icon{
+    max-width: 350px;
+}
+#head{
+    margin-top: 11px;
+    border-radius: 50%;
+    max-width: 35px;
+}
+.buttonbot{
+    margin-top: 15px;
+    display: flex;
+}
+.buttonbot div{
+    margin: 3px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px #dadada solid;
+    background-color: #dadada;
+}
+.buttonbot a:hover{
+
+    text-decoration: none;
+
+}
+.buttonbot div:hover{
+    border: #a0a0a0 1px solid;
+}
